@@ -1,4 +1,4 @@
-interface StationProps {
+export interface StationProps {
     name?: string;
     image?: string;
     description?: string;
@@ -36,7 +36,7 @@ export default function StationCard({ props, square = false }: StationCardProps)
                 />
             </div>
             <h6 className="font-semibold">{name}</h6>
-            <span className="text-gray-500">{followers} followers</span>
+            <span className="text-gray">{followers} followers</span>
         </div>
     );
 }
