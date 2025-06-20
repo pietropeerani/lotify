@@ -1,3 +1,4 @@
+import Catalog from "../components/catalog";
 import Header from "../components/header";
 import Listened from "../components/listened";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Header />
       <Listened />
+      <Catalog />
       {/* <StationCard
         props={{
           name: "Jazz Vibes",
