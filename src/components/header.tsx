@@ -4,8 +4,15 @@ export default function Header() {
     return (
         <header className="flex p-4">
             <div className="w-1/3 flex items-center">
-                <Link to="/" className="p-4 font-semibold">Home</Link>
-                <Link to="/favorites" className="p-4 font-semibold">My Favorites</Link>
+                <Link to={"/"} className="h-12 w-12">
+                    <svg className="fill-white hover:fill-white/60" viewBox="0 0 637 637" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="89" y="227" width="276" height="92" />
+                        <rect x="365" y="135" width="184" height="92" />
+                        <rect x="273" y="319" width="92" height="184" />
+                    </svg>
+                </Link>
+                <Link to="/" className="p-4 font-semibold hover:text-white/60">Home</Link>
+                <Link to="/favorites" className="p-4 font-semibold hover:text-white/60">My Favorites</Link>
             </div>
             <div className="w-1/3 flex justify-center items-center">
                 <div className="flex px-4 py-3 rounded-full border-2 border-white/20 overflow-hidden max-w-md mx-auto">
