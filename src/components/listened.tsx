@@ -28,7 +28,7 @@ export default function Listened() {
     return (
         <section>
             <h2 className="text-3xl font-semibold">Listened recently</h2>
-            <div className="text-gray">{listened.length} result{listened.length > 0 && 's'}</div>
+            <div className="text-gray font-mono">{listened.length} result{listened.length > 0 && 's'}</div>
             <div className="flex">
                 {
                     listened.map((station, index) => (

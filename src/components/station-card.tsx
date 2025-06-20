@@ -19,7 +19,7 @@ export default function StationCard({ props, square = false }: StationCardProps)
     } = props;
 
     return (
-        <div>
+        <div className="font-mono">
             <div
                 className="relative w-full h-full overflow-hidden"
                 style={{ aspectRatio: square ? "1 / 1" : "auto" }}
@@ -35,7 +35,7 @@ export default function StationCard({ props, square = false }: StationCardProps)
                     }}
                 />
             </div>
-            <h6 className="font-semibold">{name}</h6>
+            <h6 className="font-semibold mt-2">{name}</h6>
             <span className="text-gray">{followers} followers</span>
         </div>
     );
