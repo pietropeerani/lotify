@@ -11,15 +11,15 @@ export default function FavoriteStationBar() {
             {/* favorite stations list */}
             <div className="flex items-center justify-center bg-black rounded-lg overflow-hidden border border-white/20 cursor-pointer">
                 <svg viewBox="0 0 541 541" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_72_68)">
+                    <g clipPath="url(#clip0_72_68)">
                         <rect width="541" height="541" fill="#0B0A0D" />
                         <g filter="url(#filter0_d_72_68)">
                             <path d="M126.725 298.534L250.956 414.507C256.113 419.319 262.919 422 270 422C277.081 422 283.888 419.319 289.044 414.507L413.275 298.534C434.175 279.079 446 251.787 446 223.258V219.271C446 171.218 411.281 130.246 363.913 122.34C332.563 117.115 300.662 127.358 278.25 149.769L270 158.019L261.75 149.769C239.338 127.358 207.438 117.115 176.088 122.34C128.719 130.246 94 171.218 94 219.271V223.258C94 251.787 105.825 279.079 126.725 298.534Z" fill="#0B0A0D" />
                         </g>
                     </g>
                     <defs>
-                        <filter id="filter0_d_72_68" x="-106" y="-79" width="752" height="701" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <filter id="filter0_d_72_68" x="-106" y="-79" width="752" height="701" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
                             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                             <feOffset />
                             <feGaussianBlur stdDeviation="100" />
